@@ -32,6 +32,6 @@ class Task
   def self.database
     database = SQLite3::Database.new('db/task_manager_development.db')
     database.results_as_hash = true
-    database
+  database
   end
 end
